@@ -13,3 +13,25 @@ I worked with a client that required me to go through thousands of PDFs, contain
 <h2>Environments Used </h2>
 
 - <b>Visual Studio Code</b>
+
+<h2>Script </h2>
+
+- <b>[PDFSrtOut.py](https://github.com/gbrlbrynvn/PDFSrtOut.py/blob/main/PDFSrtOut.py)</b>
+
+
+<h2>Program walk-through:</h2>
+
+<p align="center">
+Make sure the script, the main PDF file, and the .csv file containing the required information is in the same folder: <br/>
+<img src="https://i.imgur.com/hlvz7lp.png" height="80%" width="80%"/>
+<br />
+<br />
+Once you run the script, it will use the variables in NameFile.csv and read through the MainPDF file using said variables.  <br/>
+It will generate the PDFs that contain the required information, until all the variables in NameFile.csv have been used:  <br/>
+<img src="https://i.imgur.com/eD7DhoC.png" height="80%" width="80%"/>
+<br />
+
+<br />
+<b>This project is easily configurable and scalable and may prove useful for a lot more situations.<br />
+I'll definitely work on more Python scripts with real-world applications!</b>
+</p>
